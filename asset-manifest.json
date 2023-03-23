@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.46ee6f4d.css",
-    "main.js": "/static/js/main.09b9360e.js",
-    "static/media/finalHome.png": "/static/media/finalHome.4791013113af8ea1818c.png",
-    "static/media/Group 4 (1).png": "/static/media/Group 4 (1).36b75b1ca09208be0451.png",
-    "static/media/Group 5.png": "/static/media/Group 5.192365ca6e722ad1ab6a.png",
-    "static/media/lentilla_png.png": "/static/media/lentilla_png.f1a73a4a80b395597552.png",
-    "static/media/gafas_wayfarer_home.png": "/static/media/gafas_wayfarer_home.d3b11200b620e72697b4.png",
-    "static/media/audifono_home.png": "/static/media/audifono_home.0dc804a710c1e6220f45.png",
-    "static/media/banner_gafas_home.png": "/static/media/banner_gafas_home.6e5c0af60e747d933983.png",
-    "static/media/Logo_Optica.svg": "/static/media/Logo_Optica.e2f0d895014691a6e5e772b695cea5bb.svg",
-    "static/media/ulleres-soles-logo.svg": "/static/media/ulleres-soles-logo.86e3aa966fddabbbec73f9bf684f4ecd.svg",
-    "index.html": "/index.html",
-    "main.46ee6f4d.css.map": "/static/css/main.46ee6f4d.css.map",
-    "main.09b9360e.js.map": "/static/js/main.09b9360e.js.map"
+    "main.css": "/opticaguinart/static/css/main.46ee6f4d.css",
+    "main.js": "/opticaguinart/static/js/main.661d7431.js",
+    "static/media/finalHome.png": "/opticaguinart/static/media/finalHome.4791013113af8ea1818c.png",
+    "static/media/Group 4 (1).png": "/opticaguinart/static/media/Group 4 (1).36b75b1ca09208be0451.png",
+    "static/media/Group 5.png": "/opticaguinart/static/media/Group 5.192365ca6e722ad1ab6a.png",
+    "static/media/lentilla_png.png": "/opticaguinart/static/media/lentilla_png.f1a73a4a80b395597552.png",
+    "static/media/gafas_wayfarer_home.png": "/opticaguinart/static/media/gafas_wayfarer_home.d3b11200b620e72697b4.png",
+    "static/media/audifono_home.png": "/opticaguinart/static/media/audifono_home.0dc804a710c1e6220f45.png",
+    "static/media/banner_gafas_home.png": "/opticaguinart/static/media/banner_gafas_home.6e5c0af60e747d933983.png",
+    "static/media/Logo_Optica.svg": "/opticaguinart/static/media/Logo_Optica.e2f0d895014691a6e5e772b695cea5bb.svg",
+    "index.html": "/opticaguinart/index.html",
+    "static/media/ulleres-soles-logo.svg": "/opticaguinart/static/media/ulleres-soles-logo.86e3aa966fddabbbec73f9bf684f4ecd.svg",
+    "main.46ee6f4d.css.map": "/opticaguinart/static/css/main.46ee6f4d.css.map",
+    "main.661d7431.js.map": "/opticaguinart/static/js/main.661d7431.js.map"
   },
   "entrypoints": [
     "static/css/main.46ee6f4d.css",
-    "static/js/main.09b9360e.js"
+    "static/js/main.661d7431.js"
   ]
 }
