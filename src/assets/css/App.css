@@ -1,0 +1,733 @@
+
+
+#root {
+  width: 100vw;
+}
+
+/*BODY*/
+#body {
+  background: rgb(255, 255, 255);
+  font-family: "Lexend Peta", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*NAVBAR*/
+
+.miniLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  transform: scale(0.9);
+}
+
+.navbar {
+  background: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.navbarSize {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand {
+  transform: scale(0.7);
+  display: flex;
+  justify-content: center;
+}
+
+.list_item {
+  font-weight: bold 600;
+  color: rgb(0, 0, 0);
+  font-size: 0.7rem;
+}
+.list_item:hover {
+  font-weight: bolder;
+}
+.botonUno {
+  transform: scale(1.4);
+  display: flex;
+  justify-content: center;
+  color: #217022;
+}
+.botonUno:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.botonDos {
+  border: solid #4286f5;
+  color: #fabc05;
+}
+.botonDos:hover {
+  background-color: #4286f5;
+  color: #fabc05;
+}
+
+.button.navbar-toggler.collapsed {
+  background-color: white;
+}
+.button.navbar-toggler {
+  background: #fff;
+}
+.linkNav {
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+/*Registrar/Iniciar sessión*/
+
+.anchoSignUp {
+  width: 35%;
+  margin: 0 auto;
+  border: solid #ea4235;
+  border-radius: 20px;
+}
+
+.botonLogin {
+  text-decoration: none;
+  color: #4286f5;
+}
+.botonRegister {
+  text-decoration: none;
+  color: #4286f5;
+}
+
+/*HOMENEW*/
+
+.containerGlobal{
+  position: relative;
+  margin-top: 6vw;
+}
+
+.primeraLinea {
+ height: 60vw;
+}
+
+
+.columnaLeft {  
+  position: absolute;
+  z-index: 1;
+  width: 60%;
+}
+.logoPetit1 {
+  margin-bottom: 2rem;
+}
+.TituloHome{
+  width: 100%;
+  font-weight: bolder;
+  font-size: 3.9vw;
+  z-index: 2;
+  margin-bottom: 2rem;
+}
+.button1Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  height: 3em;
+  width: 20vw;
+  background-color: #217022;
+  border-radius: 15px;
+  border: solid #217022;
+  color: white;
+  font-size: small;
+}
+
+.button1Home:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  height: 3em;
+  width: 20vw;
+  background-color: #217022;
+  border-radius: 15px;
+  border: solid #217022;
+  color: white;
+  font-size: small;
+
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.columnaRight {
+  position: absolute;
+  display: flex;
+  width: 65%;
+  right: 0;
+  z-index: 0;
+}
+
+.imagen1Home{
+  width: 100%;
+  
+}
+
+.confiaNosaltres{
+  font-size: 1.8vw;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.bannerMarcasHome{
+  max-width: 60%;
+  margin-bottom: 4em;
+}
+
+.segonaLinea {
+  display: flex;
+  justify-content: center;
+}
+
+.imagenHome2{
+  width: 240%;
+  margin-left: 1em;
+}
+
+.linea2Col2{
+  margin-top: 8em;
+  z-index: 1;
+}
+.textLinea2Col2{
+  font-size: 3vw;
+  font-weight: bold;
+  margin-left: 0.7em;
+}
+.text2Linea2Col2{
+  font-size: 1.3vw;
+  text-align: justify;
+  width: 80%;
+  margin-left: 1em;
+  margin-top: 2em;
+}
+
+
+.terceraLinea{
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+.titolLinea3{
+  margin-bottom: 4em;
+  font-weight: bold;
+}
+
+.imagenGafaLinea3Home{
+  height: 25vw;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fotoGafaLinea3Home{
+  max-width: 90%;
+  margin-left: 1em;
+}
+
+.buttonShoppingHome{
+  margin-bottom: 1em;
+}
+
+
+.cuartaLinea{
+  max-width: 100vw;
+  margin-top: 9em;
+}
+.finalHome{
+  max-width: 100%;
+}
+
+.cinquenaLinea{
+  display: flex;
+  justify-content: center;
+}
+
+.dubtes5{
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+  font-size: 1.8vw;
+  margin-bottom: 4em;
+}
+
+.botonLinea5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #217022;
+  width: 22em;
+  font-size: 1vw;
+  border: solid #217022;
+  border-radius: 8px;
+  margin-bottom: 5em;
+  height: 4em;
+}
+
+.botonLinea5:hover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  background-color: #217022;
+  width: 22em;
+  font-size: 1vw;
+  border: solid #217022;
+  border-radius: 8px;
+  margin-bottom: 5em;
+  height: 4em;
+
+  font-weight: bold;
+  cursor: pointer;
+}
+/*HOME2*/
+
+.homeText {
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: black;
+}
+.homeText:hover {
+  font-weight: bolder;
+  text-decoration: none;
+  color: #000000;
+}
+.homeTitleText {
+  font-size: 2vw;
+}
+
+.parpadea {
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name: parpadeo;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo {
+  0% {
+    filter: blur(3px);
+  }
+  70% {
+    filter: blur(0px);
+  }
+  100% {
+    filter: blur(3px);
+  }
+}
+
+@-webkit-keyframes parpadeo {
+  0% {
+    filter: blur(3px);
+  }
+  70% {
+    filter: blur(0px);
+  }
+  100% {
+    filter: blur(3px);
+  }
+}
+
+@keyframes parpadeo {
+  0% {
+    filter: blur(3px);
+  }
+  70% {
+    filter: blur(0px);
+  }
+  100% {
+    filter: blur(3px);
+  }
+}
+
+.imagenPromo {
+  max-width: 95%;
+  max-height: 95%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .tituloGafa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .textoTitulo {
+    font-size: 2.5vw;
+  }
+
+  .imagenGafas {
+    width: 80%;
+    position: fixed;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 37%;
+    margin: auto;
+    background-attachment: fixed;
+    overflow: scroll;
+    z-index: -1;
+  }
+  .fondoGafas {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    z-index: -2;
+  }
+  .position-home2 {
+    margin: 2%;
+  }
+}
+
+.fondoGafas {
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 20px auto;
+  z-index: -2;
+}
+
+/*GAFAS*/
+
+.contenedorGafa {
+  border-radius: 10px;
+  background-color: whitesmoke;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 10px;
+  padding: 0;
+}
+
+.tituloGafa {
+  font-size: 17px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+/* .container-div-gafa{
+  width: 20rem;
+} */
+
+.fit-imagen-gafa {
+  display: flex;
+  align-items: center;
+  height: 15rem;
+}
+
+.fit-imagen-gafa:hover {
+  transform: scaleX(-1);
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+.fotoGafa {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-radius: 1px;
+  /*Trucazo: MEZCLA el background de la foto asi parece un png*/
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+.textoGafa {
+  font-size: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.centerRow {
+  display: flex;
+  justify-content: center;
+}
+
+.fotoGafaLista {
+  max-width: 40%;
+  max-height: 40%;
+  border-radius: 40px;
+}
+
+.corazonLike:hover {
+  cursor: pointer;
+  color: red;
+}
+.divCorazonLike{
+  margin-bottom: 1em;
+  color: black;
+}
+.divCorazonLike:hover{
+  color: black;
+}
+
+/* FOOTER */
+.divFooter {
+  background-color: #217022;
+  display: flex;
+  align-self: flex-end;
+  bottom: 0;
+  width: 100%;
+  margin-top: 2em;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.footerContent {
+  background-color: #217022;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mediaIcons {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.titulosFooter {
+  font-weight: bolder;
+  font-size: 1.8vw;
+  color: white;
+}
+.textoAboutus {
+  text-decoration: none;
+  text-align: justify;
+  font-size: 1.2vw;
+  color: rgb(255, 255, 255);
+}
+.textoAboutus:hover {
+  text-decoration: none;
+  text-align: justify;
+  font-size: 1.2vw;
+  color: #005617;
+}
+.iconGoogleMaps {
+  color: #32a350;
+}
+.instagram {
+  color: #e1306c;
+}
+.facebook {
+  color: #4267b2;
+}
+.whatsapp {
+  color: #25d366;
+}
+
+.instagram:hover {
+  color: #833ab4;
+}
+.facebook:hover {
+  color: black;
+}
+.whatsapp:hover {
+  color: #075e54;
+}
+.textCopy {
+  font-size: x-small;
+  color: white;
+}
+
+.phone {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.2vw;
+}
+.phone:hover {
+  color: #4286f5;
+}
+.email {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  object-fit: contain;
+  display: flex;
+  font-size: 1.2vw;
+  width: 100%;
+  height: 100%;
+}
+
+.email:hover {
+  color: #ec1346;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  font-size: smaller;
+}
+
+@media only screen and (max-width: 900px) {
+  .textoAboutus {
+    text-align: justify;
+    font-size: 2vw;
+  }
+  .phone {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+  }
+  .email {
+    text-decoration: none;
+    color: white;
+    object-fit: contain;
+    display: flex;
+    font-size: 2vw;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.sizeLents {
+  max-width: 97vw;
+}
+
+.olLents {
+  font-size: smaller;
+}
+
+.popUp {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popUpInner {
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  max-width: 640px;
+  background-color: #fff;
+}
+.popUpInner .closeButton {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  text-decoration: none;
+  border: none;
+}
+
+.buttonPopup {
+  text-decoration: none;
+  color: #005617;
+}
+.buttonPopup:hover {
+  font-weight: bolder;
+  color: #075e54;
+  cursor: hand;
+}
+
+.textDescripcio {
+  font-size: small;
+  text-align: justify;
+  margin-top: 2rem;
+}
+
+.TituloLentillas {
+  display: flex;
+  justify-content: center;
+}
+
+.imagenServeis {
+  max-width: 100%;
+  max-height: 100%;
+}
+.text {
+  font-size: 28px;
+  font-family: helvetica;
+  font-weight: bold;
+  color: #71d90b;
+  text-transform: uppercase;
+}
+
+.tituloGafas {
+  font-size: medium;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* SERVEIS */
+
+.serveisText{
+  display: flex;
+  text-align: justify;
+  margin-top: 1rem;
+}
+
+/*BOTO COMPRAR*/
+
+.buttonShopping1:hover {
+  color: #000000;
+  border: solid;
+  border-color: rgb(0, 89, 0);
+}
+.buttonShopping1 {
+  color: black;
+  font-size: small;
+  border: solid 1px rgb(197, 197, 197);
+  width: 80%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.8rem;
+  border-radius: 3px;
+}
+.buttonShopping2 {
+  color: black;
+  background-color: rgb(197, 197, 197);
+  font-size: small;
+  width: 80%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.8rem;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+.buttonShopping2:hover {
+  color: white;
+  background-color: rgb(0, 89, 0);
+  width: 80%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+.containerButtonShopping {
+  display: flex;
+  justify-content: center;
+  margin: 2px;
+}
