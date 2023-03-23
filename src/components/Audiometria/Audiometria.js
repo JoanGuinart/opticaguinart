@@ -9,7 +9,7 @@ export const Audiometria = () => {
         <div className="row mb-3">
           <div className="col-sm-6 divImagenPromo">
             <img
-              src="https://www.beltone.com/-/media/beltone/beltone-en/frontpage/hearing-devices/hearing-aid-designs-and-styles/iic-hearing-aid-style.ashx?w=1600&usecustomfunctions=1&centercrop=1&hash=11066DBCB49D6128DDB00EDEB192DC03"
+              src="https://drive.google.com/uc?id=1xQCESyjA48hiKrdL-LoC7hwBWlTJzZdo"
               alt="imagenPromo"
               className="imagenPromo m-3"
             />
@@ -50,7 +50,7 @@ export const Audiometria = () => {
             className=" divImagenPromo"
           >
             <img
-              src="https://www.danavox.com/-/media/resound/resound-international/front-page/hearing-aids/types/new-styles/bte-animation.ashx?w=1600&usecustomfunctions=1&centercrop=1&hash=BDAA1F51D6FD4009016E2C08135B93DD"
+              src="https://drive.google.com/uc?id=1Czm5o0aF7AodFHec6wTJUmWnF-6jWjHG"
               alt="imagenPromo"
               className="imagenPromo m-3"
             />
@@ -60,7 +60,7 @@ export const Audiometria = () => {
         <div className="row">
           <div className="col-sm-6 divImagenPromo">
             <img
-              src="https://centroauditivoestaire.com/images/audifonos/tipos-audifono/audifonos-rie-01.jpg"
+              src="https://drive.google.com/uc?id=1awyWqGitO9Jv7sFfSHYWwLrh2fqsDsjk"
               alt="imagenPromo"
               className="imagenPromo m-3"
             />

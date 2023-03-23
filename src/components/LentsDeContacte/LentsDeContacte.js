@@ -21,7 +21,7 @@ export const LentsDeContacte = () => {
         <div className="row mb-3">
           <div className="col-sm-6 divImagenPromo">
             <img
-              src="https://st.depositphotos.com/1057102/2290/i/450/depositphotos_22904802-stock-photo-contact-lenses.jpg"
+              src="https://drive.google.com/uc?id=1NgRVEB0JLzWeM1Jkq-qSv3SZ0WLZPoFD"  
               alt="imagenPromo"
               className="imagenPromo m-3"
             />
@@ -222,7 +222,7 @@ export const LentsDeContacte = () => {
             className=" divImagenPromo"
           >
             <img
-              src="https://www.larazon.es/resizer/X6Poh3XMNRG3asqBAhSrB2YKJek=/600x400/smart/filters:format(jpg)/cloudfront-eu-central-1.images.arcpublishing.com/larazon/LKSQ6P6D3VFMPDEFHZUM5K62UY.jpg"
+              src="https://drive.google.com/uc?id=1tXQYGu7mm4M1zxplTI_eWI_shOBK1Dwa"
               alt="imagenPromo"
               className="imagenPromo m-3"
             />
@@ -233,7 +233,7 @@ export const LentsDeContacte = () => {
       <div className="row">
         <div className="col-sm-6 divImagenPromo">
           <img
-            src="https://www.naturaloptics.com/blog/wp-content/uploads/2013/10/lentilles_fantasia_foto_naturaloptics-1024x682.jpg"
+            src="https://drive.google.com/uc?id=1Hw4R2a5SS7c9a6f4f6WPC9jS2lSlNPoD"
             alt="imagenPromo"
             className="imagenPromo m-3"
           />
