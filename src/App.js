@@ -33,15 +33,15 @@ function App() {
 
       <AuthProvider>
         <Routes>
-          <Route path="/opticaguinart/register" element={<Register />} />
-          <Route path="/opticaguinart/ulleres" element={<Gafas />} />
-          <Route path="/opticaguinart/lents" element={<LentsDeContacte />} />
-          <Route path="/opticaguinart/serveis" element={<Serveis />} />
-          <Route path="/opticaguinart/audiometria" element={<Audiometria />} />
-          <Route path="/opticaguinart/accesoris" element={<Accesoris />} />
-          <Route path="/opticaguinart/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/ulleres" element={<Gafas />} />
+          <Route path="/lents" element={<LentsDeContacte />} />
+          <Route path="/serveis" element={<Serveis />} />
+          <Route path="/audiometria" element={<Audiometria />} />
+          <Route path="/accesoris" element={<Accesoris />} />
+          <Route path="/login" element={<Login />} />
           <Route
-            path="/opticaguinart/micuenta"
+            path="/micuenta"
             element={
               <ProtectedRoute>
                 <MiCuenta />
@@ -59,7 +59,7 @@ function App() {
             }
           />
 
-          <Route path="/opticaguinart/" element={<Home />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </AuthProvider>
       <Footer />
