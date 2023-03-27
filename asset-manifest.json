@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/opticaguinart/static/css/main.46ee6f4d.css",
-    "main.js": "/opticaguinart/static/js/main.b035bd5a.js",
+    "main.js": "/opticaguinart/static/js/main.085053d1.js",
     "static/media/finalHome.png": "/opticaguinart/static/media/finalHome.4791013113af8ea1818c.png",
     "static/media/Group 4 (1).png": "/opticaguinart/static/media/Group 4 (1).36b75b1ca09208be0451.png",
     "static/media/Group 5.png": "/opticaguinart/static/media/Group 5.192365ca6e722ad1ab6a.png",
@@ -13,10 +13,10 @@
     "index.html": "/opticaguinart/index.html",
     "static/media/ulleres-soles-logo.svg": "/opticaguinart/static/media/ulleres-soles-logo.86e3aa966fddabbbec73f9bf684f4ecd.svg",
     "main.46ee6f4d.css.map": "/opticaguinart/static/css/main.46ee6f4d.css.map",
-    "main.b035bd5a.js.map": "/opticaguinart/static/js/main.b035bd5a.js.map"
+    "main.085053d1.js.map": "/opticaguinart/static/js/main.085053d1.js.map"
   },
   "entrypoints": [
     "static/css/main.46ee6f4d.css",
-    "static/js/main.b035bd5a.js"
+    "static/js/main.085053d1.js"
   ]
 }
