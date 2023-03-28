@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.46ee6f4d.css",
-    "main.js": "/static/js/main.d880c809.js",
+    "main.css": "/static/css/main.c102eaa2.css",
+    "main.js": "/static/js/main.4e3a1d72.js",
     "static/media/finalHome.png": "/static/media/finalHome.17e5b3dd03527cc22275.png",
     "static/media/Group 4 (1).png": "/static/media/Group 4 (1).36b75b1ca09208be0451.png",
     "static/media/Group 5.png": "/static/media/Group 5.192365ca6e722ad1ab6a.png",
@@ -12,11 +12,11 @@
     "static/media/Logo_Optica.svg": "/static/media/Logo_Optica.e2f0d895014691a6e5e772b695cea5bb.svg",
     "static/media/ulleres-soles-logo.svg": "/static/media/ulleres-soles-logo.86e3aa966fddabbbec73f9bf684f4ecd.svg",
     "index.html": "/index.html",
-    "main.46ee6f4d.css.map": "/static/css/main.46ee6f4d.css.map",
-    "main.d880c809.js.map": "/static/js/main.d880c809.js.map"
+    "main.c102eaa2.css.map": "/static/css/main.c102eaa2.css.map",
+    "main.4e3a1d72.js.map": "/static/js/main.4e3a1d72.js.map"
   },
   "entrypoints": [
-    "static/css/main.46ee6f4d.css",
-    "static/js/main.d880c809.js"
+    "static/css/main.c102eaa2.css",
+    "static/js/main.4e3a1d72.js"
   ]
 }
