@@ -1,5 +1,3 @@
-
-
 #root {
   width: 100vw;
 }
@@ -26,7 +24,6 @@
   background: whitesmoke;
   display: flex;
   justify-content: space-between;
-  
 }
 
 .navbarSize {
@@ -98,17 +95,16 @@
 
 /*HOMENEW*/
 
-.containerGlobal{
+.containerGlobal {
   position: relative;
   margin-top: 6vw;
 }
 
 .primeraLinea {
- height: 60vw;
+  height: 60vw;
 }
 
-
-.columnaLeft {  
+.columnaLeft {
   position: absolute;
   z-index: 1;
   width: 60%;
@@ -116,7 +112,7 @@
 .logoPetit1 {
   margin-bottom: 2rem;
 }
-.TituloHome{
+.TituloHome {
   width: 100%;
   font-weight: bolder;
   font-size: 3.9vw;
@@ -137,6 +133,22 @@
   font-size: small;
 }
 
+@media (max-width: 768px) {
+  .button1Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 3em;
+    width: 20vw;
+    background-color: #217022;
+    border-radius: 15px;
+    border: solid #217022;
+    color: white;
+    font-size: 9px;
+  }
+}
+
 .button1Home:hover {
   display: flex;
   justify-content: center;
@@ -154,7 +166,6 @@
   font-weight: bold;
 }
 
-
 .columnaRight {
   position: absolute;
   display: flex;
@@ -163,17 +174,16 @@
   z-index: 0;
 }
 
-.imagen1Home{
+.imagen1Home {
   width: 100%;
-  
 }
 
-.confiaNosaltres{
+.confiaNosaltres {
   font-size: 1.8vw;
   font-weight: bold;
   margin-bottom: 1em;
 }
-.bannerMarcasHome{
+.bannerMarcasHome {
   max-width: 60%;
   margin-bottom: 4em;
 }
@@ -183,21 +193,27 @@
   justify-content: center;
 }
 
-.imagenHome2{
+.imagenHome2 {
   width: 240%;
   margin-left: 1em;
 }
 
-.linea2Col2{
+.linea2Col2 {
   margin-top: 8em;
   z-index: 1;
 }
-.textLinea2Col2{
+@media (max-width: 1008px) {
+  .linea2Col2 {
+    margin-top: 4em;
+    z-index: 1;
+  }
+}
+.textLinea2Col2 {
   font-size: 3vw;
   font-weight: bold;
   margin-left: 0.7em;
 }
-.text2Linea2Col2{
+.text2Linea2Col2 {
   font-size: 1.3vw;
   text-align: justify;
   width: 80%;
@@ -205,49 +221,47 @@
   margin-top: 2em;
 }
 
-
-.terceraLinea{
+.terceraLinea {
   display: flex;
   justify-content: center;
   margin-top: 5em;
 }
 
-.titolLinea3{
+.titolLinea3 {
   margin-bottom: 4em;
   font-weight: bold;
 }
 
-.imagenGafaLinea3Home{
+.imagenGafaLinea3Home {
   height: 25vw;
   width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.fotoGafaLinea3Home{
+.fotoGafaLinea3Home {
   max-width: 90%;
   margin-left: 1em;
 }
 
-.buttonShoppingHome{
+.buttonShoppingHome {
   margin-bottom: 1em;
 }
 
-
-.cuartaLinea{
+.cuartaLinea {
   max-width: 100vw;
   margin-top: 9em;
 }
-.finalHome{
+.finalHome {
   max-width: 100%;
 }
 
-.cinquenaLinea{
+.cinquenaLinea {
   display: flex;
   justify-content: center;
 }
 
-.dubtes5{
+.dubtes5 {
   display: flex;
   justify-content: center;
   color: black;
@@ -256,7 +270,7 @@
   margin-bottom: 4em;
 }
 
-.botonLinea5{
+.botonLinea5 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -272,7 +286,7 @@
   height: 4em;
 }
 
-.botonLinea5:hover{
+.botonLinea5:hover {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -438,6 +452,22 @@
   height: 15rem;
 }
 
+@media (max-width: 780px) {
+  .fit-imagen-gafa {
+    display: flex;
+    align-items: center;
+    height: 10rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .fit-imagen-gafa {
+    display: flex;
+    align-items: center;
+    height: 8rem;
+  }
+}
+
 .fit-imagen-gafa:hover {
   transform: scaleX(-1);
   filter: brightness(1.1);
@@ -459,6 +489,17 @@
   justify-content: center;
   flex-direction: column;
 }
+
+@media (max-width: 480px) {
+  .textoGafa {
+    font-size: 7px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
 .centerRow {
   display: flex;
   justify-content: center;
@@ -474,11 +515,11 @@
   cursor: pointer;
   color: red;
 }
-.divCorazonLike{
+.divCorazonLike {
   margin-bottom: 1em;
   color: black;
 }
-.divCorazonLike:hover{
+.divCorazonLike:hover {
   color: black;
 }
 
@@ -503,6 +544,23 @@
   background-color: #217022;
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+  .footerContent {
+    background-color: #217022;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 .mediaIcons {
@@ -566,7 +624,6 @@
   text-decoration: none;
   color: rgb(255, 255, 255);
   object-fit: contain;
-  display: flex;
   font-size: 1.2vw;
   width: 100%;
   height: 100%;
@@ -582,7 +639,7 @@
   font-size: smaller;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 480px) {
   .textoAboutus {
     text-align: justify;
     font-size: 2vw;
@@ -596,7 +653,6 @@
     text-decoration: none;
     color: white;
     object-fit: contain;
-    display: flex;
     font-size: 2vw;
     width: 100%;
     height: 100%;
@@ -639,6 +695,8 @@
 }
 
 .buttonPopup {
+  background-color: transparent;
+  border: none;
   text-decoration: none;
   color: #005617;
 }
@@ -649,9 +707,17 @@
 }
 
 .textDescripcio {
-  font-size: small;
+  font-size: large;
   text-align: justify;
   margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .textDescripcio {
+    font-size: small;
+    text-align: justify;
+    margin-top: 2rem;
+  }
 }
 
 .TituloLentillas {
@@ -680,10 +746,20 @@
 
 /* SERVEIS */
 
-.serveisText{
+.serveisText {
+  font-size: large;
   display: flex;
   text-align: justify;
   margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .serveisText {
+    font-size: small;
+    display: flex;
+    text-align: justify;
+    margin-top: 1rem;
+  }
 }
 
 /*BOTO COMPRAR*/
@@ -705,6 +781,22 @@
   height: 1.8rem;
   border-radius: 3px;
 }
+
+@media (max-width: 768px) {
+  .buttonShopping1 {
+    color: black;
+    font-size: 7px;
+    border: solid 1px rgb(197, 197, 197);
+    width: 80%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.8rem;
+    border-radius: 3px;
+  }
+}
+
 .buttonShopping2 {
   color: black;
   background-color: rgb(197, 197, 197);
@@ -726,8 +818,68 @@
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 768px) {
+  .buttonShopping2 {
+    color: black;
+    background-color: rgb(197, 197, 197);
+    font-size: 10px;
+    font-weight: bold;
+    width: 80%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.8rem;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .buttonShopping2:hover {
+    color: white;
+    background-color: rgb(0, 89, 0);
+    width: 80%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 468px) {
+  .buttonShopping2 {
+    color: black;
+    background-color: rgb(197, 197, 197);
+    font-size: 10px;
+    font-weight: bold;
+    width: 90%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.8rem;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .buttonShopping2:hover {
+    color: white;
+    background-color: rgb(0, 89, 0);
+    width: 90%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .containerButtonShopping {
   display: flex;
   justify-content: center;
   margin: 2px;
+}
+
+.popup {
+  text-decoration: underline;
+  color: rgb(0, 89, 0);
+  font-weight: bold;
 }

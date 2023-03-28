@@ -11,7 +11,7 @@ function Footer() {
     <div className="divFooter">
       <footer className="container footer">
         <div className="footerContent row">
-          <div className="col-sm-3">
+          <div className="col-md-3">
             <div className="titulosFooter ">Sobre nosaltres</div>
             <SiGooglemaps className="iconGoogleMaps" />
             <a
@@ -23,7 +23,7 @@ function Footer() {
               Gran de Sant Andreu 308 Barcelona 08030
             </a>
           </div>
-          <div className="col-sm-3">
+          <div className="col-md-3">
             <div className="titulosFooter">Contacta'ns</div>
             <div className="Contact">
               <AiOutlinePhone className="" />
@@ -45,12 +45,12 @@ function Footer() {
               </a>
             </div>
           </div>
-          <div className="col-sm-3">
+          <div className="col-md-3">
             <div className="titulosFooter">Reds socials</div>
             <form>
-              <div style={{ paddingBottom: "1rem", paddingTop: "1rem" }}>
+              <div style={{ paddingBottom: "1rem", paddingTop: "1rem", width: "100%"}}>
                 <a
-                  href="https://www.instagram.com/opticaguinart/"
+                  href="https://www.instagram.com/opticaguinartsantandreu/"
                   target="_blank"
                   className="instagram mediaIcons"
                   rel="noreferrer"

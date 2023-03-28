@@ -21,7 +21,7 @@ export const LentsDeContacte = () => {
         <div className="row mb-3">
           <div className="col-sm-6 divImagenPromo">
             <img
-              src="https://drive.google.com/uc?id=1NgRVEB0JLzWeM1Jkq-qSv3SZ0WLZPoFD"  
+              src="https://drive.google.com/uc?id=1NgRVEB0JLzWeM1Jkq-qSv3SZ0WLZPoFD"
               alt="imagenPromo"
               className="imagenPromo m-3"
             />
@@ -35,39 +35,37 @@ export const LentsDeContacte = () => {
               <br />
               <br />
               <b>Disponibles en:</b> <br />
-              <a
-                href="#"
+              <button
                 className="buttonPopup"
                 onClick={() => setbuttonPopup(true)}
               >
-                <br />
-                <li>
+                <li className="popup">
                   Un sol ús diaries <br />
                 </li>
-              </a>
-              <a
-                href="#"
+              </button>
+              <br/>
+              <button
                 className="buttonPopup"
                 onClick={() => setbuttonPopup2(true)}
               >
-                <li>
+                <li className="popup">
                   Mensuals <br />
                 </li>
-              </a>
-              <a
-                href="#"
+              </button>
+              <br/>
+              <button
                 className="buttonPopup"
                 onClick={() => setbuttonPopup3(true)}
               >
-                <li>Lents tòriques(astigmatisme)</li>
-              </a>
-              <a
-                href="#"
+                <li className="popup">Lents tòriques(astigmatisme)</li>
+              </button>
+              <br/>
+              <button
                 className="buttonPopup"
                 onClick={() => setbuttonPopup4(true)}
               >
-                <li>Progresives</li>
-              </a>
+                <li className="popup">Progresives</li>
+              </button>
             </div>
             <div></div>
           </div>
@@ -90,39 +88,37 @@ export const LentsDeContacte = () => {
               proporcionant-te una vista més nítida. <br />
               <b>Disponibles en:</b> <br />
               <br />
-              <a
-                href="#"
+              <button
                 className="buttonPopup"
                 onClick={() => setbuttonPopup(true)}
               >
-                <br />
-                <li>
+                <li className="popup">
                   Un sol ús diaries <br />
                 </li>
-              </a>
-              <a
-                href="#"
+              </button>
+              <br/>
+              <button
                 className="buttonPopup"
                 onClick={() => setbuttonPopup2(true)}
               >
-                <li>
+                <li className="popup">
                   Mensuals <br />
                 </li>
-              </a>
-              <a
-                href="#"
+              </button>
+              <br/>
+              <button
                 className="buttonPopup"
                 onClick={() => setbuttonPopup3(true)}
               >
-                <li>Lents tòriques(astigmatisme)</li>
-              </a>
-              <a
-                href="#"
+                <li className="popup">Lents tòriques(astigmatisme)</li>
+              </button>
+              <br/>
+              <button
                 className="buttonPopup"
                 onClick={() => setbuttonPopup4(true)}
               >
-                <li>Progresives</li>
-              </a>
+                <li className="popup">Progresives</li>
+              </button>
             </div>
 
             <div>
@@ -133,18 +129,18 @@ export const LentsDeContacte = () => {
                 <h3>LENTS DIÀRIES</h3>
                 <div>
                   Un sol ús diaries: <br />
-                  <ol className = "olLents">
+                  <ol className="olLents">
                     Hi ha un temps màxim dús recomanat, és preferible no
                     portar-les posades més de 8 o 10 hores. No excedir-se en el
                     temps dús evita irritacions.
                   </ol>
-                  <ol className = "olLents">
+                  <ol className="olLents">
                     Segueix les instruccions d'higiene i, si necessites fer-ho,
                     neteja les teves lents de contacte només amb{" "}
                     <b>líquid de lents de contacte específic</b>, i no amb
                     aigua.
                   </ol>
-                  <ol className = "olLents">
+                  <ol className="olLents">
                     Tira les teves lents de contacte al final del dia. No tornis
                     a fer-les servir al dia següent, doncs es tracta d'un
                     producte d'un sol ús.
@@ -159,14 +155,14 @@ export const LentsDeContacte = () => {
                 setTrigger2={setbuttonPopup2}
               >
                 <h3>LENTS MENSUALS</h3>
-                <ol className = "olLents">
+                <ol className="olLents">
                   Les lents de contacte mensuals duren un mes, com el seu nom
                   indica. Quant al nombre d'hores diàries que les pots portar,
                   depèn de com et sentis de còmoda. Fins a 12 hores al dia no hi
                   sol haver cap problema. Tot i que és millor que comencis amb
                   períodes més curts i vagis acostumant a l'ull.
                 </ol>
-                <ol className = "olLents">
+                <ol className="olLents">
                   Per netejar-les, segueix les instruccions del fabricant i
                   utilitza sempre líquid de lents de contacte i solucions
                   específiques.
@@ -180,8 +176,10 @@ export const LentsDeContacte = () => {
                 setTrigger3={setbuttonPopup3}
               >
                 <h3>LENTS TÒRIQUES</h3>
-                <ol className = "olLents">Dissenyades per corregir els problemes d'astigmatisme.</ol>
-                <ol className = "olLents">
+                <ol className="olLents">
+                  Dissenyades per corregir els problemes d'astigmatisme.
+                </ol>
+                <ol className="olLents">
                   La seva forma ovalada crea diferents graus o tipus de
                   refracció tant a la seva orientació vertical com horitzontal.
                 </ol>
@@ -195,18 +193,18 @@ export const LentsDeContacte = () => {
                 setTrigger4={setbuttonPopup4}
               >
                 <h3>LENTS PROGRESIVES</h3>
-                <ol className = "olLents">
-                  Dissenys de visió simultània per a visió llunyana i propera
-                  (i a vegades intermitja). Depenent de l'objecte que es miri,
+                <ol className="olLents">
+                  Dissenys de visió simultània per a visió llunyana i propera (i
+                  a vegades intermitja). Depenent de l'objecte que es miri,
                   l'ull fa servir les zones de la lent que proporcionen la visió
                   més nítida.
                 </ol>
-                <ol className = "olLents">
+                <ol className="olLents">
                   Dissenys segmentats. Les zones central i superior de la lent
                   ajuden a veure objectes distants, i la part inferior de la
                   lent per veure objectes propers.
                 </ol>
-                <ol className = "olLents">
+                <ol className="olLents">
                   Escullis el que escullis, recorda que, per tenir-ne cura, cal
                   utilitzar líquid online per a lents de contacte i no
                   excedir-se del temps d'ús en lents de contacte diàries o lents
