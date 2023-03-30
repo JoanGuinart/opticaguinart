@@ -134,7 +134,7 @@ const Gafas = () => {
         </div>
       </div>
       <p style={{ textAlign: "center", color: "grey", fontSize: "12px" }}>
-        *Tots els models d'ulleres es poden graduar y/o demanar amb altres
+        *Tots els models d'ulleres es poden graduar i/o demanar amb altres
         colors disponibles*
       </p>
     </div>

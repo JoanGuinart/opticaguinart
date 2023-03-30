@@ -26,7 +26,7 @@
             "modelo": "ROUND-METAL",
             "precio": "125",
             "disponibilidad": "EN 24H",
-            "stock": true
+            "stock": true,
         },
         {
             "marca": "CAROLINA HERRERA",

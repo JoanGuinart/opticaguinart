@@ -12,7 +12,7 @@ import gafaHome from "../../img/imgHome/gafas_wayfarer_home.png"
 import lentillaHome from "../../img/imgHome/lentilla_png.png"
 import audifonoHome from "../../img/imgHome/audifono_home.png"
 import { Link } from "react-router-dom";
-import finalHome from "../../img/imgHome/finalHome.png" 
+import FinalHome from "./FinalHome";
 
 export const Home = () => {
   return (
@@ -46,7 +46,7 @@ export const Home = () => {
         <div className="col-7 linea2Col2">
           <h2 className="textLinea2Col2">Assesorament personalitzat</h2>
           <p className="text2Linea2Col2">
-            A lòptica ens encarreguem de donarte els millors concells per a que
+            A lòptica ens encarreguem de donarte els millors consells per a que
             trobis les ulleres que més t'encaixen tant per salut, estètica i
             estil de vida.
           </p>
@@ -54,7 +54,7 @@ export const Home = () => {
       </div>
 
       <div className="terceraLinea row">
-        <h5 className="text-center titolLinea3">Les nostres colleccions</h5>
+        <h5 className="text-center titolLinea3">Les nostres col.leccions</h5>
         <div className="col-3 contenedorGafa">
           <div className="tituloGafa">
             <p className="textoTitulo">ULLERES</p>
@@ -107,18 +107,18 @@ export const Home = () => {
       </div>
 
       <div className="cuartaLinea">
-        <img src={finalHome} alt="jeje" className="finalHome"/>
+        <FinalHome/>
       </div>
 
 
-      <div className="cinquenaLinea row">
+      {/* <div className="cinquenaLinea row">
         <h5 className="dubtes5 col-12">Tens més dubtes?</h5>
         
         <a
         href="https://api.whatsapp.com/send?phone=+34682502960&text=Hola!%20Quería%20informaci%C3%B3n%20sobre:"
         target="_blank"
         className="botonLinea5 col-12" rel="noreferrer">Pregunta'ns per whatsapp</a>
-      </div>
+      </div> */}
 
     </div>
   );

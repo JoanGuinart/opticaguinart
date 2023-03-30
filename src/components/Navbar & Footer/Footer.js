@@ -27,8 +27,8 @@ function Footer() {
             <div className="titulosFooter">Contacta'ns</div>
             <div className="Contact">
               <AiOutlinePhone className="" />
-              <a href="#" className="phone">
-                +34 93 311 87 06
+              <a href="tel:+34933118706" className="phone">
+                +34 933118706
               </a>
               <br />
               <AiOutlinePhone className="" />
@@ -46,7 +46,7 @@ function Footer() {
             </div>
           </div>
           <div className="col-md-3">
-            <div className="titulosFooter">Reds socials</div>
+            <div className="titulosFooter">Xarxes socials</div>
             <form>
               <div style={{ paddingBottom: "1rem", paddingTop: "1rem", width: "100%"}}>
                 <a
