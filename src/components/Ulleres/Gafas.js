@@ -3,21 +3,11 @@ import React, { useEffect, useState } from "react";
 import GafasDataService from "../services/Gafas.services";
 import MiniLogo from "../../img/ulleres-soles-logo.svg";
 import { BsWhatsapp } from "react-icons/bs";
-/* import { useAuth } from "../../context.js/AuthContext";
-/* import {AiOutlineHeart} from "react-icons/ai"
-import {FcLike} from "react-icons/fc" */
-/* import { doc, getDoc, setDoc } from "firebase/firestore";
-import { db } from "../../Firebase"; */
 
 const Gafas = () => {
   const [gafas, setGafas] = useState([]);
-  /*  const [carrito, setCarrito] = useState([]);
-  
-  console.log(carrito); */
+  const [ordenarPor, setOrdenarPor] = useState("Seleccionar");
 
-  /*  const { user } = useAuth(); */
-
-  //COMENTADO PARA NO GASTAR LLAMADAS A FIREBASE:
   useEffect(() => {
     getGafas();
   }, []);
@@ -27,67 +17,78 @@ const Gafas = () => {
     setGafas(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
   };
 
-  /*  const addCarrito = ({ doc }) => {
-    const item = gafas.find((gafa) => gafa.id === doc.id);
-    setCarrito(item);
-  }; */
-
-  gafas.sort((a, b) => (a.marca > b.marca ? 1 : b.marca > a.marca ? -1 : 0));
-
-  /*  function ordenarModelo(x) {
-    return (
-      x.sort((a,b) => (a.modelo > b.modelo) ? 1 : ((b.modelo > a.modelo) ? -1 : 0))
-    )
-  }
-
-  const ordenarPrecio = () => {
-    return (
-      gafas.sort((a,b) => (a.precio > b.precio) ? 1 : ((b.precio > a.precio) ? -1 : 0))
-    )
-  } */
-
-  /*  function giveLike(docu) {
-    const item = gafas.find((gafa) => gafa.id === docu.id)
-    const path = 'gafas/' + item.id + '/like'
-    console.log(path)
-    const data = {
-      Uid: user.uid,
-      user: null,
-      fecha: new Date(),
-      like: true
-    }
-    console.log(data)
-    setDoc(doc(db, "gafas", item.id, 'likes', user.uid), data)
-  }
-
-
-  
-  let like = Boolean(false)
-//IMPORTAR ELS LIKES DE CADA USUARI FETS 
-   function loadLikeUser(doc) {
-    const item = gafas.find((gafa) => gafa.id === doc.id)
-    getDoc(item.id, user.uid)
-    
-  }  
- console.log(loadLikeUser) */
-
   function getDriveImageSrc(url) {
     if (!url) return null;
     const imageId = url.match(/[-\w]{25,}/);
     return "https://drive.google.com/uc?id=" + imageId[0];
   }
 
+  useEffect(() => {
+    switch (ordenarPor) {
+      case "marca":
+        ordenarPorMarca();
+        break;
+      case "preu":
+        ordenarPorPrecio();
+        break;
+      case "disponibilitat":
+        ordenarPorDisponibilidad();
+        break;
+      default:
+        break;
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [ordenarPor]);
+
+  function handleOrdenarPorChange(event) {
+    setOrdenarPor(event.target.value);
+  }
+
+  function ordenarPorMarca() {
+    setGafas([...gafas].sort((a, b) => a.marca.localeCompare(b.marca)));
+    setOrdenarPor("marca");
+  }
+
+  function ordenarPorPrecio() {
+    setGafas([...gafas].sort((a, b) => a.precio - b.precio));
+    setOrdenarPor("preu");
+  }
+
+  function ordenarPorDisponibilidad() {
+    setGafas([...gafas].sort((a, b) => b.disponibilidad.localeCompare(a.disponibilidad)));
+    setOrdenarPor("disponibilitat")
+    console.log(ordenarPor)
+  }
+
+ 
+
   return (
     <div>
+      <div className="containerOrdenarPorButton">
+        <label htmlFor="ordenarPorSelect" className="ordenarPorButton">
+          Ordenar per:
+        </label>
+        <select
+          id="ordenarPorSelect"
+          className="ordenarPorButton"
+          value={ordenarPor}
+          onChange={handleOrdenarPorChange}
+        >
+          <option value="Seleccionar">Seleccionar</option>
+          <option value="marca">Marca</option>
+          <option value="preu">Preu</option>
+          <option value="disponibilitat">Disponibilitat Inmediata</option>
+        </select>
+      </div>
       <div className="miniLogo">
         <img src={MiniLogo} alt="minilogo" />
       </div>
+      <div className="ordenarPorContainer"></div>
       <h5 className="text-center tituloGafas">Les més populars</h5>
       <div className="container">
         <div className="row centerRow">
           {gafas.map((doc, index) => {
             const imageUrl = getDriveImageSrc(doc.urlImagen);
-            console.log(imageUrl);
             return (
               <div
                 key={index}
@@ -116,9 +117,16 @@ const Gafas = () => {
                   >
                     M'interessa&nbsp;
                     <div>
-                    <BsWhatsapp style={{ color: "green", padding: "1px",marginBottom: "2px", transform: "scale(1.9)", maxWidth: "100%"}} />
+                      <BsWhatsapp
+                        style={{
+                          color: "green",
+                          padding: "1px",
+                          marginBottom: "2px",
+                          transform: "scale(1.9)",
+                          maxWidth: "100%",
+                        }}
+                      />
                     </div>
-                    
                   </a>
                 </div>
                 {/* <a onClick={() => giveLike(doc)} className="divCorazonLike">
@@ -133,6 +141,9 @@ const Gafas = () => {
           })}
         </div>
       </div>
+      <p style={{ textAlign: "center", color: "grey", fontSize: "12px" }}>
+        *Tenim moltissimes marques i models, aqui només es mostren les mes venudes, si vols alguna marca o model que no surt aqui nomes has de contactar amb nosaltres via whatsapp / email o trucada i et respondrem en menys de 24h*
+      </p>
       <p style={{ textAlign: "center", color: "grey", fontSize: "12px" }}>
         *Tots els models d'ulleres es poden graduar i/o demanar amb altres
         colors disponibles*

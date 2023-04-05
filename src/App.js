@@ -22,6 +22,8 @@ import { Home } from "./components/Home/Home";
 function App() {
   const [gafaId, setgafaId] = useState("");
 
+  console.log(console.log(process.env.REACT_APP_FIREBASE_API_KEY))
+
   const getGafaIdHandler = (id) => {
     console.log("The ID of document to be edited: ", id);
     setgafaId(id);

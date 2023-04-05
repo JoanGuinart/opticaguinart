@@ -588,6 +588,21 @@
   height: 15rem;
 }
 
+.containerOrdenarPorButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5px;
+  position: relative;
+}
+
+.ordenarPorButton{
+  text-align: center;
+  width: auto;
+  background-color: white;
+}
+
 @media (max-width: 780px) {
   .fit-imagen-gafa {
     display: flex;
