@@ -4,6 +4,7 @@ import { Col } from "react-bootstrap";
 export const Serveis = () => {
   return (
     <div>
+      <title>Optica Guinart</title>
       <h1 className="TituloLentillas">Serveis</h1>
       <div className="container">
         <div className="row mb-3">
@@ -15,8 +16,10 @@ export const Serveis = () => {
             />
           </div>
           <div className="col-sm-6 text-center">
-            <h1 className="homeTitleText" style={{marginTop: "1rem"}}>Exàmen visual</h1>
-            <p className="serveisText" style={{marginTop: "7rem"}}>
+            <h1 className="homeTitleText" style={{ marginTop: "1rem" }}>
+              Exàmen visual
+            </h1>
+            <p className="serveisText" style={{ marginTop: "7rem" }}>
               La unitat de refracció subjectiva ZEISS (SRU) (formada per ZEISS
               VISUPHOR500 i ZEISS VISUSCREEN 100 o 500) redueix l'estrès i el
               temps de refracció i ofereix a professionals de la visió i als
@@ -32,8 +35,10 @@ export const Serveis = () => {
             sm={6}
             className=" text-center"
           >
-            <h1 className="homeTitleText" style={{marginTop: "1rem"}}>Examen auditiu</h1>
-            <p className="serveisText" style={{marginTop: "7rem"}}>
+            <h1 className="homeTitleText" style={{ marginTop: "1rem" }}>
+              Examen auditiu
+            </h1>
+            <p className="serveisText" style={{ marginTop: "7rem" }}>
               Les cabines audiomètriques són utilitzades per realitzar
               audiometries per les seves excel·lents condicions acústiques. Les
               seves parets estan perfectament aïllades acústicament, impedint
@@ -65,8 +70,10 @@ export const Serveis = () => {
             />
           </div>
           <div className="col-sm-6 text-center">
-            <h1 className="homeTitleText" style={{marginTop: "1rem"}}>Presió Ocular</h1>
-            <p className="serveisText" style={{marginTop: "7rem"}}>
+            <h1 className="homeTitleText" style={{ marginTop: "1rem" }}>
+              Presió Ocular
+            </h1>
+            <p className="serveisText" style={{ marginTop: "7rem" }}>
               La tonometria és un examen que mesura la pressió dins dels ulls.
               L'examen s'utilitza per detectar si hi ha glaucoma i per verificar
               què tan bé funciona el tractament per al glaucoma.
@@ -81,8 +88,10 @@ export const Serveis = () => {
             sm={6}
             className=" text-center"
           >
-            <h1 className="homeTitleText" style={{marginTop: "1rem"}}>Presició</h1>
-            <p className="serveisText" style={{marginTop: "7rem"}}>
+            <h1 className="homeTitleText" style={{ marginTop: "1rem" }}>
+              Presició
+            </h1>
+            <p className="serveisText" style={{ marginTop: "7rem" }}>
               Una biselladora compacta amb ranurat i mata tall, ideal per a
               treballs en lents d'alta qualitat amb resultats excepcionals. Weco
               E1 és el resultat de combinar les millors tecnologies de

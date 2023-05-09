@@ -16,6 +16,7 @@ export const LentsDeContacte = () => {
 
   return (
     <div className="sizeLents">
+      <title>Optica Guinart lentillas</title>
       <h1 className="TituloLentillas">Lents de contacte</h1>
       <div className="container">
         <div className="row mb-3">
@@ -43,7 +44,7 @@ export const LentsDeContacte = () => {
                   Un sol ús diaries <br />
                 </li>
               </button>
-              <br/>
+              <br />
               <button
                 className="buttonPopup"
                 onClick={() => setbuttonPopup2(true)}
@@ -52,14 +53,14 @@ export const LentsDeContacte = () => {
                   Mensuals <br />
                 </li>
               </button>
-              <br/>
+              <br />
               <button
                 className="buttonPopup"
                 onClick={() => setbuttonPopup3(true)}
               >
                 <li className="popup">Lents tòriques(astigmatisme)</li>
               </button>
-              <br/>
+              <br />
               <button
                 className="buttonPopup"
                 onClick={() => setbuttonPopup4(true)}
@@ -96,7 +97,7 @@ export const LentsDeContacte = () => {
                   Un sol ús diaries <br />
                 </li>
               </button>
-              <br/>
+              <br />
               <button
                 className="buttonPopup"
                 onClick={() => setbuttonPopup2(true)}
@@ -105,14 +106,14 @@ export const LentsDeContacte = () => {
                   Mensuals <br />
                 </li>
               </button>
-              <br/>
+              <br />
               <button
                 className="buttonPopup"
                 onClick={() => setbuttonPopup3(true)}
               >
                 <li className="popup">Lents tòriques(astigmatisme)</li>
               </button>
-              <br/>
+              <br />
               <button
                 className="buttonPopup"
                 onClick={() => setbuttonPopup4(true)}

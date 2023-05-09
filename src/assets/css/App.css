@@ -375,6 +375,7 @@
 }
 
 .cinquenaLinea {
+  margin-top: 44px;
   display: flex;
   justify-content: center;
 }
@@ -515,9 +516,6 @@
     justify-content: center;
     align-items: center;
   }
-  .textoTitulo {
-    font-size: 2.5vw;
-  }
 
   .imagenGafas {
     width: 80%;
@@ -546,6 +544,15 @@
   }
 }
 
+.textoTitulo{
+  font-size: 90%;
+  font-weight: bold;
+}
+.textoTitulo2{
+  font-size: 75%;
+  font-weight: bold;
+}
+
 .fondoGafas {
   width: 100%;
   object-fit: cover;
@@ -571,8 +578,7 @@
 }
 
 .tituloGafa {
-  font-size: 17px;
-  font-weight: bolder;
+  font-weight: bold;
   display: flex;
   justify-content: center;
   margin-top: 1rem;
@@ -595,12 +601,19 @@
   flex-direction: column;
   margin-top: 5px;
   position: relative;
+  border-radius: 20px;
 }
 
 .ordenarPorButton{
   text-align: center;
   width: auto;
   background-color: white;
+}
+
+.disclaimer{
+  text-align: center;
+  color: grey;
+  font-size: 12px;
 }
 
 @media (max-width: 780px) {

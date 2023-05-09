@@ -81,9 +81,9 @@ const Gafas = () => {
         </select>
       </div>
       <div className="miniLogo">
-        <img src={MiniLogo} alt="minilogo" />
+        <img src={MiniLogo} alt="logo optica guinart gafas icon" />
       </div>
-      <div className="ordenarPorContainer"></div>
+      <title>Optica Guinart</title>
       <h5 className="text-center tituloGafas">Les més populars</h5>
       <div className="container">
         <div className="row centerRow">
@@ -95,12 +95,12 @@ const Gafas = () => {
                 className="col-md-3 col-sm-4 col-4 contenedorGafa"
               >
                 <div className="tituloGafa">
-                  <p className="textoTitulo">{doc.marca}</p>
+                  <h1 className="textoTitulo">{doc.marca}</h1>
                 </div>
                 <br />
 
                 <div className="fit-imagen-gafa">
-                  <img src={imageUrl} alt="Imagen gafa" className="fotoGafa" />
+                  <img src={imageUrl} alt="imagen marca gafa optica guinart" className="fotoGafa" />
                 </div>
                 <br />
                 <div className="textoGafa">
@@ -113,7 +113,7 @@ const Gafas = () => {
                     href={`https://api.whatsapp.com/send?phone=+34682502960&text=Hola!%20%F0%9F%98%8E%20Estoy%20interesado%20en%20la%20gafa:%20${doc.marca}%20${doc.modelo}`}
                     target="_blank"
                     className="buttonShopping2"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     M'interessa&nbsp;
                     <div>
@@ -141,10 +141,10 @@ const Gafas = () => {
           })}
         </div>
       </div>
-      <p style={{ textAlign: "center", color: "grey", fontSize: "12px" }}>
-        *Tenim moltissimes marques i models, aqui només es mostren les mes venudes, si vols alguna marca o model que no surt aqui nomes has de contactar amb nosaltres via whatsapp / email o trucada i et respondrem en menys de 24h*
+      <p className="disclaimer">
+        *A Optica Guinart tenim moltissimes marques i models, aqui només es mostren les mes venudes, si vols alguna marca o model que no surt aqui nomes has de contactar amb nosaltres via whatsapp / email o trucada i et respondrem en menys de 24h*
       </p>
-      <p style={{ textAlign: "center", color: "grey", fontSize: "12px" }}>
+      <p className="disclaimer">
         *Tots els models d'ulleres es poden graduar i/o demanar amb altres
         colors disponibles*
       </p>

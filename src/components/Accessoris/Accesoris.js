@@ -4,6 +4,7 @@ import { Col } from "react-bootstrap";
 export const Accesoris = () => {
   return (
     <div>
+      <title>Optica Guinart</title>
       <h1 className="TituloLentillas">Accesoris</h1>
       <div className="container">
         <div className="row mb-3">
