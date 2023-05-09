@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3be6aea6.css",
-    "main.js": "/static/js/main.103c40bc.js",
+    "main.js": "/static/js/main.2eac4cd7.js",
     "static/media/Group 4 (1).png": "/static/media/Group 4 (1).36b75b1ca09208be0451.png",
     "static/media/noia_3.png": "/static/media/noia_3.3385b1673e1f88678acb.png",
     "static/media/noia_2.png": "/static/media/noia_2.6a5ad176f4484fbb1c5e.png",
@@ -15,10 +15,10 @@
     "index.html": "/index.html",
     "static/media/ulleres-soles-logo.svg": "/static/media/ulleres-soles-logo.86e3aa966fddabbbec73f9bf684f4ecd.svg",
     "main.3be6aea6.css.map": "/static/css/main.3be6aea6.css.map",
-    "main.103c40bc.js.map": "/static/js/main.103c40bc.js.map"
+    "main.2eac4cd7.js.map": "/static/js/main.2eac4cd7.js.map"
   },
   "entrypoints": [
     "static/css/main.3be6aea6.css",
-    "static/js/main.103c40bc.js"
+    "static/js/main.2eac4cd7.js"
   ]
 }
