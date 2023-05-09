@@ -29,7 +29,7 @@ export const Home = () => {
           </a>
         </div>
         <div className="columnaRight ">
-          <img src={imgHome1} alt="optica guinart imagen principal" className="imagen1Home" />
+          <img src={imgHome1} alt="optica guinart imagen principal uno" className="imagen1Home" />
         </div>
       </div>
 
